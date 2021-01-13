@@ -4,6 +4,14 @@ html {
 body {
   background-color: rgb(241, 241, 241);
 }
+
+.name {
+  position: relative;
+  bottom: 20px;
+}
+
+/*** Grid ***/
+
 .grid-container {
   display: grid;
   width: 100%;
@@ -21,15 +29,16 @@ body {
 }
 .left {
   grid-area: left;
-  min-height: 300px;
+
+  /*max-width: 500px;*/
 }
 .right-up {
   grid-area: right-up;
-  min-height: 200px;
+  /* max-width: 700px;/*/
 }
 .right-down {
   grid-area: right-down;
-  min-height: 200px;
+  /* min-height: 200px;*/
 }
 footer {
   min-height: 100px;
@@ -38,10 +47,10 @@ footer {
 
 @media only screen and (min-width: 800px) {
   .grid-container {
-    max-width: 1200px;
+    max-width: 1400px;
     align-items: center;
     grid-template-areas:
-      "left right-up right-up"
-      "left right-down right-down";
+      "left  right-up"
+      "left  right-down";
   }
 }
