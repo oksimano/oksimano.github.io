@@ -1,0 +1,47 @@
+html {
+  font-size: 10px;
+}
+body {
+  background-color: rgb(241, 241, 241);
+}
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-areas:
+    "left"
+    "right-up"
+    "right-down";
+  margin: 1.6rem auto;
+  gap: 1rem 0.8rem;
+}
+.grid-item {
+  margin: 0 0.4rem;
+  background-color: white;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.left {
+  grid-area: left;
+  min-height: 300px;
+}
+.right-up {
+  grid-area: right-up;
+  min-height: 200px;
+}
+.right-down {
+  grid-area: right-down;
+  min-height: 200px;
+}
+footer {
+  min-height: 100px;
+  background-color: #009688;
+}
+
+@media only screen and (min-width: 800px) {
+  .grid-container {
+    max-width: 1200px;
+    align-items: center;
+    grid-template-areas:
+      "left right-up right-up"
+      "left right-down right-down";
+  }
+}

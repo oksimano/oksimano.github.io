@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true,
+    "css.lint.float": "error",
+    "css.lint.compatibleVendorPrefixes": "warning",
+    "css.lint.duplicateProperties": "warning",
+    "css.lint.important": "warning",
+    "css.lint.argumentsInColorFunction": "warning",
+    "css.lint.hexColorLength": "warning",
+    "emmet.syntaxProfiles": {
+    
+    }
+}
