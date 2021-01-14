@@ -1,5 +1,6 @@
 :root {
-  --main-title-color: #009688;
+  --main-title-color: rgb(0, 150, 136);
+  --font-color: rgba(0, 0, 0, 0.651);
 }
 
 html {
@@ -9,6 +10,7 @@ body {
   background-color: rgb(241, 241, 241);
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
+  color: var(--font-color);
 }
 
 .image-container {
@@ -18,30 +20,36 @@ body {
 }
 .name {
   position: absolute;
-  bottom: -1rem;
+  bottom: 0.5rem;
   padding-left: 2rem;
 }
 .main-title {
   font-size: 3.2rem;
+  color: var(--main-title-color);
 }
 .container-title {
   font-size: 2rem;
+  padding: 1rem 0;
 }
 .left-wrapper {
-  padding: 0 2rem;
+  padding: 1rem 2rem;
 }
-.left__text-container {
-  padding: 1rem 0;
+
+.list__link {
+  color: rgba(0, 0, 0, 0.753);
 }
 .text-box:not(:last-child),
 .left__text-container:not(:last-child) {
-  border-bottom: 1px solid rgba(128, 128, 128, 0.616);
+  border-bottom: 1px solid var(--font-color);
+}
+.left__text-container {
+  padding-top: 1rem;
 }
 .text-box {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 .text-container {
-  padding: 2rem 3rem;
+  padding: 1rem 3rem;
 }
 .container-title,
 .subsub-title,
@@ -49,10 +57,15 @@ body {
   color: var(--main-title-color);
 }
 .list__item {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .fa {
   padding-right: 1rem;
+  padding-bottom: 2rem;
+}
+.sub-title {
+  font-weight: 600;
+  padding: 1rem 0;
 }
 /*** Grid ***/
 
