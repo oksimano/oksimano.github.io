@@ -46,7 +46,7 @@ body {
   padding-top: 1rem;
 }
 .text-box {
-  padding: 1rem 0;
+  padding: 1rem 0 2rem;
 }
 .text-container {
   padding: 1rem 3rem;
@@ -65,7 +65,7 @@ body {
 }
 .sub-title {
   font-weight: 600;
-  padding: 1rem 0;
+  padding: 1rem 0 2rem;
 }
 /*** Grid ***/
 
