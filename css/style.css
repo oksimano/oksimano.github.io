@@ -26,7 +26,7 @@ body {
 .left {
   grid-area: left;
 
-  max-width: 500px;
+  max-width: 400px;
 }
 .right-up {
   grid-area: right-up;
