@@ -3,7 +3,8 @@ html {
 }
 body {
   background-color: rgb(241, 241, 241);
-  font-size: 2rem;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
 }
 
 /*** Grid ***/
@@ -25,16 +26,15 @@ body {
 }
 .left {
   grid-area: left;
-
-  max-width: 400px;
+  max-width: 500px;
 }
 .right-up {
   grid-area: right-up;
-  /* max-width: 700px;/*/
+  max-width: 500px;
 }
 .right-down {
   grid-area: right-down;
-  /* min-height: 200px;*/
+  max-width: 500px;
 }
 footer {
   min-height: 100px;
@@ -48,5 +48,12 @@ footer {
     grid-template-areas:
       "left . right-up right-up"
       "left . right-down right-down";
+  }
+  .left {
+    max-width: 400px;
+  }
+  .right-down,
+  .right-up {
+    max-width: none;
   }
 }
