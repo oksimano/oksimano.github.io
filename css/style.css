@@ -10,12 +10,15 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
+
 .image-container {
-  max-height: 375px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 .name {
-  position: relative;
-  top: -5rem;
+  position: absolute;
+  bottom: -1rem;
   padding-left: 2rem;
 }
 .main-title {
@@ -88,7 +91,7 @@ footer {
 @media only screen and (min-width: 768px) {
   .grid-container {
     max-width: 1200px;
-    align-items: center;
+
     grid-template-areas:
       "left . right-up right-up"
       "left . right-down right-down";
