@@ -3,11 +3,7 @@ html {
 }
 body {
   background-color: rgb(241, 241, 241);
-}
-
-.name {
-  position: relative;
-  bottom: 20px;
+  font-size: 2rem;
 }
 
 /*** Grid ***/
@@ -23,14 +19,14 @@ body {
   gap: 1rem 0.8rem;
 }
 .grid-item {
-  margin: 0 0.4rem;
+  margin: 0 auto;
   background-color: white;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .left {
   grid-area: left;
 
-  /*max-width: 500px;*/
+  max-width: 500px;
 }
 .right-up {
   grid-area: right-up;
@@ -45,12 +41,12 @@ footer {
   background-color: #009688;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
   .grid-container {
-    max-width: 1400px;
+    max-width: 1200px;
     align-items: center;
     grid-template-areas:
-      "left  right-up"
-      "left  right-down";
+      "left . right-up right-up"
+      "left . right-down right-down";
   }
 }
