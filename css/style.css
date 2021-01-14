@@ -10,6 +10,17 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
+.image-container {
+  max-height: 375px;
+}
+.name {
+  position: relative;
+  top: -5rem;
+  padding-left: 2rem;
+}
+.main-title {
+  font-size: 3.2rem;
+}
 .left__text-container {
   padding: 1rem 2rem;
 }
