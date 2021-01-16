@@ -26,6 +26,7 @@ body {
 .main-title {
   font-size: 3.2rem;
   color: var(--main-title-color);
+  text-shadow: 1px 1px black;
 }
 .container-title {
   font-size: 2rem;
