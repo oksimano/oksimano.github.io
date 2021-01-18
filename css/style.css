@@ -1,11 +1,22 @@
+:root {
+  --main-title-color: rgb(0, 150, 136);
+  --font-color: rgba(0, 0, 0, 0.651);
+}
+
+html {
+  font-size: 10px;
+}
 body {
   position: relative;
 }
 #hamburger-menu {
   display: none;
 }
+.navbar-logo {
+  color: white;
+  padding-left: 1rem;
+}
 .menu__label {
-  padding: 10px;
   width: 50px;
   text-align: center;
   cursor: pointer;
