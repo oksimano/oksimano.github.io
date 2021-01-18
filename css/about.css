@@ -65,8 +65,8 @@
     "left"
     "right-up"
     "right-down";
-  margin: 1.6rem auto;
-  gap: 1rem 0.8rem;
+  margin: 2rem auto;
+  gap: 2rem 1rem;
 }
 .grid-item {
   margin: 0 auto;
@@ -110,6 +110,7 @@ footer {
     grid-template-areas:
       "left . right-up right-up"
       "left . right-down right-down";
+    padding: 0 2rem;
   }
   .left {
     max-width: 400px;
