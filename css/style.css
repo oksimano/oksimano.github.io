@@ -23,6 +23,7 @@ body {
 .navbar-logo {
   color: var(--primary-font-color);
   padding-left: 1rem;
+  font-size: 2rem;
 }
 .menu__label {
   width: 50px;
@@ -47,25 +48,27 @@ body {
   display: none;
 }
 .open-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20vh;
   position: absolute;
   top: 50px;
   left: 0;
   right: 0;
-  background: rgba(174, 207, 231, 0.747);
+  background: var(--main-bg-color);
+  opacity: 0.8;
   text-align: center;
-  font-size: 24px;
-  padding: 10px;
+  font-size: 1.8rem;
   z-index: 2;
   transform: translate(0%, -150%);
   transform-origin: 0% 0%;
 
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
-.menu__list {
-  padding: 10px 0;
-}
+
 .menu__link {
-  color: black;
+  color: var(--primary-font-color);
 }
 #hamburger-menu:checked ~ .main-navigation .menu__label .fa-times {
   display: block;
