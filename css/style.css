@@ -1,11 +1,27 @@
+@import url(reset.css);
+:root {
+  --main-bg-color: rgb(0, 150, 136);
+  --primary-font-color: white;
+  --secondary-font-color: rgba(0, 0, 0, 0.651);
+}
+
+html {
+  font-size: 10px;
+}
+
 body {
   position: relative;
+
+  background-color: rgb(241, 241, 241);
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--secondary-font-color);
 }
 #hamburger-menu {
   display: none;
 }
 .navbar-logo {
-  color: white;
+  color: var(--primary-font-color);
   padding-left: 1rem;
 }
 .menu__label {
@@ -16,7 +32,7 @@ body {
 .main-navigation {
   height: 50px;
   display: flex;
-  background-color: var(--main-title-color);
+  background-color: var(--main-bg-color);
   justify-content: space-between;
   align-items: center;
   position: sticky;
