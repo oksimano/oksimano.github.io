@@ -42,13 +42,14 @@
 }
 .container-title,
 .subsub-title,
-.fa {
+.about_ikon {
   color: var(--main-bg-color);
+  font-weight: bold;
 }
 .list__item {
   padding-bottom: 2rem;
 }
-.fa {
+.about_ikon {
   padding-right: 1rem;
   padding-bottom: 2rem;
 }

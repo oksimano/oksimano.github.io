@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <title>About me</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
@@ -15,10 +15,27 @@
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/reset.css" />
+
     <link rel="stylesheet" href="/css/about.css" />
   </head>
   <body>
+    <input type="checkbox" id="hamburger-menu" />
+    <nav class="main-navigation">
+      <a href="#" class="navbar-logo">Navbar</a>
+      <label for="hamburger-menu" class="menu__label">
+        <i class="fa fa-bars"></i>
+        <i class="fa fa-times"></i>
+      </label>
+    </nav>
+    <ul class="open-menu">
+      <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
+      <li class="menu__list"><a href="#" class="menu__link">Portfolio</a></li>
+      <li class="menu__list"><a href="#" class="menu__link">Contact</a></li>
+      <li class="menu__list">
+        <a href="./about.html" class="menu__link" target="blank">About</a>
+      </li>
+    </ul>
+
     <div class="grid-container">
       <section class="grid-item left">
         <div class="image-container">
@@ -29,21 +46,21 @@
           <div class="left__text-container left__list">
             <ul>
               <li class="me__list">
-                <i class="fa fa-briefcase"></i>
+                <i class="fa fa-briefcase about_ikon"></i>
                 Junior Frontend developer
               </li>
               <li class="me__list">
-                <i class="fa fa-home"></i>
+                <i class="fa fa-home about_ikon"></i>
                 Budapest, HU
               </li>
               <li class="me__list">
-                <i class="fa fa-envelope"></i>
+                <i class="fa fa-envelope about_ikon"></i>
                 <a href="mailto:szabo.csaba.1981@gmail.com" class="list__link">
                   szabo.csaba.1981@gmail.com
                 </a>
               </li>
               <li class="me__list">
-                <i class="fa fa-phone"></i>
+                <i class="fa fa-phone about_ikon"></i>
                 <a href="tel:+3630*******" class="list__link">+3630*******</a>
               </li>
             </ul>
@@ -81,7 +98,7 @@
         <div class="text-box">
           <h3 class="sub-title">Media Vivantis Zrt., Promo editor</h3>
           <h4 class="subsub-title">
-            <i class="fa fa-calendar"></i>2019 - 2020
+            <i class="fa fa-calendar about_ikon"></i>2019 - 2020
           </h4>
           <ul>
             <li>Creating Promos and trailers for movie, and broadcast shows</li>
@@ -95,7 +112,9 @@
         </div>
         <div class="text-box">
           <h3 class="sub-title">Origo Zrt, Video editor, director</h3>
-          <h4 class="subsub-title"><i class="fa fa-calendar"></i>2014-2019</h4>
+          <h4 class="subsub-title">
+            <i class="fa fa-calendar about_ikon"></i>2014-2019
+          </h4>
           <ul>
             <li>Cutting cameras</li>
             <li>Directing the staff</li>
@@ -113,7 +132,8 @@
         <div class="text-box">
           <h3 class="sub-title">Frontend Developer</h3>
           <h4 class="subsub-title">
-            <i class="fa fa-calendar"></i>December 2020 - <span>Current</span>
+            <i class="fa fa-calendar about_ikon"></i>December 2020 -
+            <span>Current</span>
           </h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
@@ -123,7 +143,7 @@
         <div class="text-box">
           <h3 class="sub-title">Technikum</h3>
           <h4 class="subsub-title">
-            <i class="fa fa-calendar"></i>September 1999 - June 2000
+            <i class="fa fa-calendar about_ikon"></i>September 1999 - June 2000
           </h4>
           <p>
             Egressy Gábor Bilingual Technical Highschool. Information and
@@ -133,7 +153,7 @@
         <div class="text-box">
           <h3 class="sub-title">Graduation</h3>
           <h4 class="subsub-title">
-            <i class="fa fa-calendar"></i>September 1995 - June 1999
+            <i class="fa fa-calendar about_ikon"></i>September 1995 - June 1999
           </h4>
           <p>Egressy Gábor Bilingual Technical Highschool</p>
         </div>
