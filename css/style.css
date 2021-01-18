@@ -13,17 +13,16 @@ body {
 .main-navigation {
   height: 50px;
   display: flex;
-  background-color: #007bff;
+  background-color: var(--main-title-color);
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   position: sticky;
   top: 0;
   z-index: 4;
 }
 .fa {
   font-size: 25px;
-  color: #7f8080;
+  color: white;
 }
 .fa-times {
   display: none;
@@ -61,6 +60,5 @@ body {
 }
 
 .banner {
-  background: green;
   height: 1000px;
 }
