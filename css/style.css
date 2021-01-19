@@ -51,7 +51,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   height: 20vh;
-  position: absolute;
+  position: fixed;
   top: 50px;
   left: 0;
   right: 0;
