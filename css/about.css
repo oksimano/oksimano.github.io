@@ -67,7 +67,7 @@
     "right-up"
     "right-down";
   margin: 2rem auto;
-  gap: 2rem 1rem;
+  gap: 2rem 2rem;
   padding: 0 2rem;
 }
 .grid-item {
@@ -108,10 +108,10 @@ footer {
 @media only screen and (min-width: 768px) {
   .grid-container {
     max-width: 1200px;
-
+    grid-template-columns: 1fr 2fr;
     grid-template-areas:
-      "left . right-up right-up"
-      "left . right-down right-down";
+      "left right-up"
+      "left right-down";
     padding: 0 2rem;
   }
   .left {
