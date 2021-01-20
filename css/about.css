@@ -77,15 +77,12 @@
 }
 .left {
   grid-area: left;
-  max-width: 500px;
 }
 .right-up {
   grid-area: right-up;
-  max-width: 500px;
 }
 .right-down {
   grid-area: right-down;
-  max-width: 500px;
 }
 footer {
   background-color: var(--main-bg-color);
@@ -112,13 +109,5 @@ footer {
     grid-template-areas:
       "left right-up"
       "left right-down";
-    padding: 0 2rem;
-  }
-  .left {
-    max-width: 400px;
-  }
-  .right-down,
-  .right-up {
-    max-width: none;
   }
 }
