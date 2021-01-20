@@ -10,11 +10,13 @@ html {
 }
 
 body {
-  position: relative;
   background-color: rgb(241, 241, 241);
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
   color: var(--secondary-font-color);
+}
+header {
+  height: 5rem;
 }
 #hamburger-menu {
   display: none;
@@ -25,19 +27,21 @@ body {
   font-size: 2rem;
 }
 .menu__label {
-  width: 50px;
+  width: 5rem;
   text-align: center;
   cursor: pointer;
 }
 .main-navigation {
-  height: 50px;
   display: flex;
   background-color: var(--main-bg-color);
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 4;
+  height: 5rem;
 }
 .hamburger_ikon {
   font-size: 2rem;
@@ -49,14 +53,14 @@ body {
 .open-menu {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 20vh;
+  justify-content: space-evenly;
+  height: 100vh;
   position: fixed;
   top: 50px;
   left: 0;
   right: 0;
   background: var(--main-bg-color);
-  opacity: 0.8;
+  opacity: 0.9;
   text-align: center;
   font-size: 1.8rem;
   z-index: 2;
