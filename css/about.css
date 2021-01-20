@@ -72,6 +72,7 @@
   margin: 0 auto;
   background-color: var(--primary-font-color);
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 500px;
 }
 .left {
   grid-area: left;
@@ -99,12 +100,15 @@ footer {
 .list__padding {
   padding: 0 1rem;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .grid-container {
     max-width: 1200px;
     grid-template-columns: 1fr 2fr;
     grid-template-areas:
       "left right-up"
       "left right-down";
+  }
+  .grid-item {
+    max-width: none;
   }
 }
