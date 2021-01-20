@@ -68,6 +68,7 @@
     "right-down";
   margin: 2rem auto;
   gap: 2rem 1rem;
+  padding: 0 2rem;
 }
 .grid-item {
   margin: 0 auto;
