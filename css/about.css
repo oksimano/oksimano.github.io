@@ -2,8 +2,6 @@
 @import url(style.css);
 
 .image-container {
-  display: flex;
-  flex-direction: column;
   position: relative;
 }
 .name {
@@ -21,11 +19,11 @@
   padding: 1rem 0;
 }
 .left-wrapper {
-  padding: 1rem 2rem;
+  padding: 0rem 2rem;
 }
 
 .list__link {
-  color: rgba(0, 0, 0, 0.753);
+  color: var(--secondary-font-color);
 }
 .text-box:not(:last-child),
 .left__text-container:not(:last-child) {
@@ -72,7 +70,7 @@
 }
 .grid-item {
   margin: 0 auto;
-  background-color: white;
+  background-color: var(--primary-font-color);
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .left {
@@ -89,15 +87,14 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: aliceblue;
+  color: var(--primary-font-color);
   line-height: 2;
 }
 .footer__list {
   display: flex;
 }
 .footer__link {
-  color: white;
-  display: inline-block;
+  color: var(--primary-font-color);
 }
 .list__padding {
   padding: 0 1rem;
