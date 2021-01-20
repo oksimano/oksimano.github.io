@@ -70,6 +70,21 @@ header {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
+#hamburger-menu:checked ~ .main-navigation .menu__label .fa-times {
+  display: block;
+  margin-top: 1px;
+}
+#hamburger-menu:checked ~ .main-navigation .menu__label .fa-bars {
+  display: none;
+}
+#hamburger-menu:checked ~ .open-menu {
+  transform: none;
+}
+
+.banner {
+  height: 1000px;
+}
+
 footer {
   background-color: var(--main-bg-color);
   display: flex;
@@ -88,18 +103,4 @@ footer {
 }
 .menu__link {
   color: var(--primary-font-color);
-}
-#hamburger-menu:checked ~ .main-navigation .menu__label .fa-times {
-  display: block;
-  margin-top: 1px;
-}
-#hamburger-menu:checked ~ .main-navigation .menu__label .fa-bars {
-  display: none;
-}
-#hamburger-menu:checked ~ .open-menu {
-  transform: none;
-}
-
-.banner {
-  height: 1000px;
 }
