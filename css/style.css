@@ -102,8 +102,17 @@ footer {
 .list__padding {
   padding: 0 1rem;
 }
+
 .menu__link {
   color: var(--primary-font-color);
+  transition: 0.5s;
+  display: inline-block;
+}
+.menu__link:hover {
+  color: rgb(255, 123, 0);
+  text-shadow: 1px 1px black;
+  transform: translateY(-5px);
+  font-weight: 900;
 }
 .footer__cright {
   flex-basis: 100%;
