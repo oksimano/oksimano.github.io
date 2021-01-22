@@ -100,6 +100,13 @@ header {
   transform: none;
 }
 
+/* Base style */
+.container_base {
+  padding: 10rem 2rem;
+  max-width: 100%;
+}
+
+/* banner */
 .banner {
   height: 300px;
 }
@@ -108,7 +115,6 @@ header {
 
 #project {
   background: var(--main-bg-color);
-  padding: 10rem 2rem;
 }
 .project__main-title {
   font-size: 3rem;
@@ -146,8 +152,9 @@ footer {
 .footer__connect {
   padding-right: 1.5rem;
 }
+
+/* contact style */
 #contact {
-  max-width: 100%;
   text-align: center;
   background-color: var(--primary-font-color);
 }
@@ -156,7 +163,6 @@ form {
   flex-direction: column;
   max-width: 700px;
   margin: auto auto;
-  padding: 2rem 2rem;
 }
 
 input,
