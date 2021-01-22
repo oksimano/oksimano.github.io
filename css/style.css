@@ -76,7 +76,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 100vh;
+  height: 20vh;
   position: fixed;
   top: 50px;
   left: 0;
@@ -137,6 +137,12 @@ header {
   text-align: left;
   width: 500px;
   margin: 0.5rem;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.project__item:hover {
+  transform: scale(1.05);
 }
 /* Footer style */
 
