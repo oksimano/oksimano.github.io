@@ -120,7 +120,8 @@ header {
 #project {
   background: var(--main-bg-color);
 }
-.project__main-title {
+.project__main-title,
+.contact__title {
   font-size: 3rem;
   padding-bottom: 4rem;
   color: var(--primary-font-color);
@@ -143,6 +144,13 @@ header {
 }
 .project__item:hover {
   transform: scale(1.05);
+}
+.item__padding {
+  padding: 1rem 2rem;
+}
+.item__title {
+  font-weight: bold;
+  font-size: 2rem;
 }
 /* Footer style */
 
@@ -174,6 +182,9 @@ footer {
 /* contact style */
 #contact {
   background-color: var(--primary-font-color);
+}
+.contact__title {
+  color: var(--secondary-font-color);
 }
 form {
   display: flex;
