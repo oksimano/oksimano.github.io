@@ -47,7 +47,7 @@ header {
 .menu__link:hover {
   color: var(--hover-color);
   text-shadow: 1px 1px black;
-  transform: translateY(-5px);
+  transform: scale(1.05);
   font-weight: 900;
 }
 .main-navigation {
@@ -101,8 +101,20 @@ header {
 }
 
 .banner {
-  height: 1000px;
+  height: 300px;
 }
+
+/* Project style */
+
+#project {
+  background: var(--main-bg-color);
+  padding: 10rem 2rem;
+}
+.project__item {
+  background-color: var(--primary-font-color);
+  margin-bottom: 1rem;
+}
+/* Footer style */
 
 footer {
   background-color: var(--main-bg-color);
