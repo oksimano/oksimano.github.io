@@ -110,6 +110,12 @@ header {
   background: var(--main-bg-color);
   padding: 10rem 2rem;
 }
+.project__main-title {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 4rem;
+  color: var(--primary-font-color);
+}
 .project__item {
   background-color: var(--primary-font-color);
   margin-bottom: 1rem;
