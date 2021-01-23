@@ -249,6 +249,6 @@ form {
   outline: none;
   border-bottom: 1px solid var(--main-bg-color);
 }
-.mail__item:invalid {
+.mail__item:invalid:not(:placeholder-shown) {
   border-bottom-color: red;
 }
