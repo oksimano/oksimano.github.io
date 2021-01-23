@@ -201,7 +201,7 @@ form {
   font-family: "Poppins", sans-serif;
   padding: 2rem 1rem;
   background-color: transparent;
-  border: none;
+  border: 1px solid transparent;
 }
 .input_box {
   position: relative;
@@ -231,6 +231,7 @@ form {
 
   transition: 0.5s;
 }
+
 .contact__item:focus ~ .label,
 .contact__message:focus ~ .label,
 .contact__item:valid ~ .label,
@@ -239,4 +240,15 @@ form {
   top: 0;
   color: var(--main-bg-color);
   font-size: 1.5rem;
+}
+.contact__item:focus {
+  outline: none;
+  border-bottom: 1px solid var(--main-bg-color);
+}
+.contact__item:hover {
+  outline: none;
+  border-bottom: 1px solid var(--main-bg-color);
+}
+.mail__item:invalid {
+  border-bottom-color: red;
 }
