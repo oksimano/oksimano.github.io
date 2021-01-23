@@ -224,11 +224,9 @@ form {
 .label {
   position: absolute;
   top: 18px;
-
   left: 10px;
   pointer-events: none;
-  font-size: 2rem;
-
+  font-size: 1.8rem;
   transition: 0.5s;
 }
 
