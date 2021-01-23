@@ -194,20 +194,24 @@ form {
 }
 
 .contact__item,
-textarea {
+.contact__message {
   display: block;
   width: 100%;
   margin: 1rem 0;
   font-family: "Poppins", sans-serif;
+  padding: 2rem 1rem;
+  background-color: transparent;
   border: none;
-  background-color: rgb(239, 239, 239);
-  border-radius: 5px;
 }
+.input_box {
+  position: relative;
+  background-color: rgb(239, 239, 239);
+}
+
 .contact__item {
-  padding: 1rem 0;
   transition: 0.3s;
 }
-textarea {
+.contact__message {
   height: 13rem;
 }
 
@@ -215,14 +219,23 @@ textarea {
   width: 7rem;
   padding: 1rem 1rem;
   margin: 2rem auto;
+  background-color: rgb(239, 239, 239);
 }
-.contact__item:focus {
-  outline: 2px solid var(--main-bg-color);
-  color: blue;
+.label {
+  position: absolute;
+  top: 18px;
+
+  left: 10px;
+  pointer-events: none;
+  font-size: 2rem;
+
+  transition: 0.5s;
 }
-.contact__item:hover {
-  background-color: var(--secondary-font-color);
-}
-.contact__item::placeholder:hover {
-  color: var(--primary-font-color);
+.contact__item:focus ~ .label,
+.contact__message:focus ~ .label,
+.contact__item:valid ~ .label,
+.contact__message:valid ~ .label {
+  top: 0;
+  color: var(--main-bg-color);
+  font-size: 1.5rem;
 }

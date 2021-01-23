@@ -88,25 +88,35 @@
     <section id="contact" class="container_base">
       <h2 class="contact__title">Interested in working together?</h2>
       <form action="#" method="POST">
-        <label>
-          <input
-            type="text"
-            name="name"
-            placeholder="Name"
-            class="contact__item"
-          />
-        </label>
-        <label>
-          <input
-            type="email"
-            name="email"
-            placeholder="E-mail"
-            class="contact__item"
-          />
-        </label>
-        <label>
-          <textarea name="message" placeholder="Message"></textarea>
-        </label>
+        <div class="contact__box">
+          <div class="input_box">
+            <input type="text" name="name" class="contact__item" required="" />
+            <label class="label">Name</label>
+          </div>
+        </div>
+
+        <div class="contact__box">
+          <div class="input_box">
+            <input
+              type="email"
+              name="email"
+              class="contact__item"
+              required=""
+            />
+            <label class="label">E-mail</label>
+          </div>
+        </div>
+
+        <div class="contact__box">
+          <div class="input_box">
+            <textarea
+              name="message"
+              class="contact__message"
+              required=""
+            ></textarea>
+            <label class="label">Message</label>
+          </div>
+        </div>
         <input type="submit" value="SEND" class="submit contact__item" />
       </form>
     </section>
