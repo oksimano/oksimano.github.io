@@ -130,6 +130,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .project__item {
   background-color: var(--primary-font-color);
@@ -206,6 +208,7 @@ form {
 .input_box {
   position: relative;
   background-color: rgb(239, 239, 239);
+  border-radius: 5px;
 }
 
 .contact__item {
@@ -220,6 +223,8 @@ form {
   padding: 1rem 1rem;
   margin: 2rem auto;
   background-color: rgb(239, 239, 239);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
 }
 .label {
   position: absolute;
