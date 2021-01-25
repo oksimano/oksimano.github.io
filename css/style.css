@@ -290,6 +290,7 @@ form {
     left: 0;
     right: 0px;
     align-items: center;
+    z-index: 99;
   }
   .open-menu__mobil {
     display: none;
