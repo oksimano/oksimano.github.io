@@ -8,11 +8,7 @@
   bottom: 0.5rem;
   padding-left: 2rem;
 }
-.main-title {
-  font-size: 3.2rem;
-  color: var(--main-bg-color);
-  text-shadow: 1px 1px var(--secondary-font-color);
-}
+
 .container-title {
   font-size: 2rem;
   padding: 1rem 0;
