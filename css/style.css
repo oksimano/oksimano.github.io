@@ -75,7 +75,7 @@ header {
 .fa-times {
   display: none;
 }
-.open-menu__mobil {
+.open-menu {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -93,9 +93,6 @@ header {
   transform-origin: 0% 0%;
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
-.open-menu {
-  display: none;
-}
 
 #hamburger-menu:checked ~ .main-navigation .menu__label .fa-times {
   display: block;
@@ -104,7 +101,7 @@ header {
 #hamburger-menu:checked ~ .main-navigation .menu__label .fa-bars {
   display: none;
 }
-#hamburger-menu:checked ~ .open-menu__mobil {
+#hamburger-menu:checked ~ .open-menu {
   transform: none;
 }
 
@@ -292,10 +289,13 @@ form {
     align-items: center;
     z-index: 99;
   }
-  .open-menu__mobil {
+  .open-menu {
     display: none;
   }
-  .open-menu {
+
+  .desktop-menu {
+    all: unset;
+    list-style: none;
     display: flex;
   }
   .main-navigation {

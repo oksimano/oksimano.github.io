@@ -59,9 +59,9 @@
     "left"
     "right-up"
     "right-down";
-  margin: 2rem auto;
+  margin: 0 auto;
   gap: 2rem 2rem;
-  padding: 0 2rem;
+  padding: 7rem 2rem 2rem;
 }
 .grid-item {
   margin: 0 auto;
@@ -86,6 +86,7 @@
     grid-template-areas:
       "left right-up"
       "left right-down";
+    padding: 10rem 2rem 5rem;
   }
   .grid-item {
     max-width: none;
