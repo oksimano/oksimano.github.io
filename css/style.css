@@ -126,6 +126,21 @@ header {
   align-items: center;
   flex-direction: column;
 }
+/*skills and tools */
+
+.skills {
+  background-color: var(--primary-font-color);
+}
+.card__container {
+  background: var(--main-bg-color);
+  width: 400px;
+  color: var(--primary-font-color);
+  margin: 1rem auto;
+}
+.skills__item {
+  padding: 0.5rem 0;
+  line-height: 2;
+}
 
 /* Project style */
 
