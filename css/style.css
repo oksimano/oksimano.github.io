@@ -316,15 +316,21 @@ form {
     all: unset;
     list-style: none;
     display: flex;
+    flex-grow: 1;
+    flex-basis: 200px;
   }
   .main-navigation {
     position: static;
     display: block;
     height: auto;
+    flex-grow: 2.5;
   }
   .menu__list {
     padding-right: 2rem;
     font-size: 1.8rem;
+    flex-grow: 1;
+    flex-basis: 500px;
+    min-width: 20%;
   }
   .navbar-logo {
     padding-left: 2rem;
