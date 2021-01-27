@@ -158,6 +158,7 @@ header {
   font-size: 3rem;
   padding-bottom: 4rem;
   color: var(--primary-font-color);
+  font-weight: bold;
 }
 
 .project__item {
