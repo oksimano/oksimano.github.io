@@ -46,9 +46,12 @@ header {
 }
 
 .navbar-logo:hover,
-.hamburger_ikon:hover {
+.hamburger_ikon:hover,
+.menu__link:hover {
   color: var(--hover-color);
   text-shadow: 0px 1px var(--secondary-font-color);
+  transform: scale(1.05);
+  font-weight: 900;
 }
 .menu__label {
   width: 5rem;
@@ -60,12 +63,7 @@ header {
   transition: 0.5s;
   display: inline-block;
 }
-.menu__link:hover {
-  color: var(--hover-color);
-  text-shadow: 1px 1px black;
-  transform: scale(1.05);
-  font-weight: 900;
-}
+
 .main-navigation {
   display: flex;
   justify-content: space-between;
