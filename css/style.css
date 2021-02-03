@@ -32,7 +32,7 @@ body {
 
 /* header */
 header {
-  height: 5rem;
+  height: 6rem;
   background: var(--main-bg-color);
 }
 #hamburger-menu {
@@ -47,7 +47,8 @@ header {
 
 .navbar-logo:hover,
 .hamburger_ikon:hover,
-.menu__link:hover {
+.menu__link:hover,
+.footer__link:hover {
   color: var(--hover-color);
   text-shadow: 0px 1px var(--secondary-font-color);
   transform: scale(1.05);
@@ -73,7 +74,7 @@ header {
   left: 0;
   right: 0;
   z-index: 4;
-  height: 5rem;
+  height: 6rem;
   background-color: inherit;
 }
 .hamburger_ikon {
@@ -185,6 +186,8 @@ footer {
   flex-wrap: wrap;
   text-align: center;
   color: var(--primary-font-color);
+  height: 6rem;
+  font-size: 2rem;
 }
 .footer__list {
   display: flex;
@@ -192,6 +195,7 @@ footer {
 .footer__link {
   color: var(--primary-font-color);
 }
+
 .list__padding {
   padding: 0 1rem;
 }
@@ -312,21 +316,16 @@ form {
     all: revert;
     list-style: none;
     display: flex;
-    flex-grow: 1;
-    flex-basis: 200px;
+    justify-self: flex-end;
   }
   .main-navigation {
     position: static;
     display: block;
     height: auto;
-    flex-grow: 2.5;
   }
   .menu__list {
     padding-right: 2rem;
-    font-size: 1.8rem;
-    flex-grow: 1;
-    flex-basis: 500px;
-    min-width: 20%;
+    font-size: 2rem;
   }
   .navbar-logo {
     padding-left: 2rem;
